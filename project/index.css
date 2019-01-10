@@ -1,0 +1,43 @@
+
+.box {
+  display: flex;
+}
+.conatiner{
+  display:grid;
+  grid-template-columns: 100px 100px;
+  
+}
+img {
+  width: 350px;
+  height:350px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+span {
+  padding-left: 25px;
+  padding-right: 50px;
+}
+h2{
+  font-family: Sans-Serif;
+  font-style: italic;
+}
+span{
+  font-family:Tahoma;
+}
+h1{
+  text-align: center;
+}
+.column{
+  float: left;
+  width: 33.33%;
+}
+.row:after {
+  content: "";
+  display: table;
+}
+h4 {
+  text-align: center;
+}
+
+  
+}
